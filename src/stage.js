@@ -1,5 +1,5 @@
 import React from 'react';
-import StageParticipant from './StageParticipant';
+import StageParticipants from './StageParticipants';
 
 export default function(props){
   return (
