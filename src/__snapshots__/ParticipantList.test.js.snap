@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the UI as expected 1`] = `
+<div
+  className="ParticipantList"
+>
+  <div
+    className="Participant"
+  >
+    <h3>
+      (props.name)
+    </h3>
+    <img
+      alt="user avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <p
+      className="active"
+    >
+      onStage
+    </p>
+  </div>
+  <div
+    className="Participant"
+  >
+    <h3>
+      Axe Kubicka
+    </h3>
+    <img
+      alt="user avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <p
+      className="Left_Session"
+    >
+      Left Session
+    </p>
+  </div>
+</div>
+`;
