@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the UI as expected 1`] = `
+<stage
+  participants={
+    Array [
+      Object {
+        "avatar": "https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1",
+        "id": 1,
+        "inSession": true,
+        "name": "Koren Templeton",
+        "onStage": true,
+      },
+      Object {
+        "avatar": "https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1",
+        "id": 3,
+        "inSession": false,
+        "name": "Axe Kubicka",
+        "onStage": false,
+      },
+    ]
+  }
+/>
+`;

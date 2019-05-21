@@ -25,5 +25,28 @@ it ('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
+it('Renders the UI as expected', () => {
+  const tree = renderer
+      .create(<stage participants={[
+          {
+              id: 1,
+              name: 'Koren Templeton',
+              avatar:
+                  'https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1',
+              inSession: true,
+              onStage: true
+          },
+          {
+              id: 3,
+              name: 'Axe Kubicka',
+              avatar: 'https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1',
+              inSession: false,
+              onStage: false
+          },
+      ]} />)
+      .toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
 
 
