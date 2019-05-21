@@ -34,5 +34,13 @@
   "devDependencies": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-dragonfly/Erin-Clinton-Owl-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-dragonfly/Erin-Clinton-Owl-Project/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-dragonfly/Erin-Clinton-Owl-Project#readme"
 }

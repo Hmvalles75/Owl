@@ -4,7 +4,7 @@ export default function(props){
     if (props.onStage === true){
         return(
             <div className='Participant'>
-                <h3>(props.name)</h3>
+                <h3>{props.name}</h3>
                 <img src={props.avatar} alt='user avatar'/>
                 <p className='active'>onStage</p>
             </div>
